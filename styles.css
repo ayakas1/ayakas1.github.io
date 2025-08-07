@@ -1,5 +1,100 @@
-body {background-color: rgb(193, 175, 165);}
-h2   {color: rgb(40, 40, 46);
+body {background-color: #585756;}
+head   {color: rgb(203, 203, 204);
     text-align: center;
 }
-p    {color: rgb(50, 44, 44);}
+p    {color: rgb(211, 208, 208);}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.img_deg{
+
+    float: right;
+}
+
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--bg);
+    color: var(--text);
+    border-top: 2px solid var(--accent);
+  /* background-color: #585756;
+  text-align: center;
+  padding: 10px; */
+}
+
+footer a {
+    margin: 0 10px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--accent);
+}
+
+
+/* Make content take up full width with reasonable padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Center and constrain the main content area */
+main {
+    max-width: 800px; /* adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Optional: Add layout spacing for header/footer too */
+header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
